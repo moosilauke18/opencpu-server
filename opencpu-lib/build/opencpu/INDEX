@@ -1,0 +1,3 @@
+cleanup                 Clean up OpenCPU files from disk
+opencpu                 The httpuv based single-user OpenCPU server.
+rhttpd                  The Rhttpd based single-user OpenCPU server.

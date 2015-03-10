@@ -1,0 +1,2 @@
+set.tempdir             Change R's temporary directory
+set.user                Switch user for the current process

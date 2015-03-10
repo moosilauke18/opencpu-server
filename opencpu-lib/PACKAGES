@@ -1,0 +1,244 @@
+Package: R6
+Version: 2.0.1
+Depends: R (>= 3.0)
+Suggests: knitr, microbenchmark, pryr, testthat, ggplot2, scales
+License: MIT + file LICENSE
+MD5sum: 64cd43604941b7f39ef2956ed195429d
+NeedsCompilation: no
+
+Package: RAppArmor
+Version: 1.0.1.99
+Imports: parallel, tools, methods
+Suggests: testthat
+License: GPL | Apache License (== 2.0)
+OS_type: unix
+MD5sum: 9b8c7a879f604ae61b1b33e37bf695d1
+NeedsCompilation: yes
+
+Package: RCurl
+Version: 1.95-4.5
+Depends: R (>= 3.0.0), methods, bitops
+Suggests: Rcompression, XML
+License: BSD
+MD5sum: 622227f934b815015337363f4365d0f1
+NeedsCompilation: yes
+
+Package: RProtoBuf
+Version: 0.4.2
+Depends: R (>= 3.0.0), methods
+Imports: utils, stats, tools, Rcpp, RCurl
+LinkingTo: Rcpp
+Suggests: RUnit, highlight
+License: GPL-2
+MD5sum: 37a69b002db33177c00607136025b324
+NeedsCompilation: yes
+
+Package: Rcpp
+Version: 0.11.3
+Depends: R (>= 3.0.0)
+Imports: methods
+Suggests: RUnit, inline, rbenchmark, highlight, pkgKitten (>= 0.1.2)
+License: GPL (>= 2)
+MD5sum: 51d4c0ea441cdcc67d5180233d5d9679
+NeedsCompilation: yes
+
+Package: base64enc
+Version: 0.1-2
+Depends: R (>= 2.9.0)
+Enhances: png
+License: GPL-2 | GPL-3
+MD5sum: 451e1e6544da502a9ffbc800e67735cd
+NeedsCompilation: yes
+
+Package: bitops
+Version: 1.0-6
+License: GPL (>= 2)
+MD5sum: fba16485a51b1ccd354abde5816b6bdd
+NeedsCompilation: yes
+
+Package: brew
+Version: 1.0-6
+License: GPL-2
+MD5sum: 4aaca5e6ec145e0fc0fe6375ce1f3806
+NeedsCompilation: no
+
+Package: codetools
+Version: 0.2-9
+Priority: recommended
+Depends: R (>= 2.1)
+License: GPL
+MD5sum: 11103cad77f00fea2943a11cd51091de
+NeedsCompilation: no
+
+Package: devtools
+Version: 1.6.1
+Depends: R (>= 3.0.2)
+Imports: httr (>= 0.4), RCurl, utils, tools, methods, memoise, whisker,
+        evaluate, digest, rstudioapi, jsonlite
+Suggests: testthat (>= 0.7), roxygen2 (>= 4.0.2), BiocInstaller, Rcpp
+        (>= 0.10.0), MASS, rmarkdown, knitr
+License: GPL (>= 2)
+MD5sum: 0fa81d9603b8dd0978f81e148536fcf3
+NeedsCompilation: yes
+
+Package: digest
+Version: 0.6.7
+Depends: R (>= 2.4.1)
+License: GPL-2
+MD5sum: fb127c997bc0a16859e218422b482078
+NeedsCompilation: yes
+
+Package: evaluate
+Version: 0.5.5
+Depends: R (>= 2.14.0)
+Imports: stringr (>= 0.6.2)
+Suggests: testthat, lattice, ggplot2
+License: GPL
+MD5sum: 7100245f69c5303100a6172b2ed5d2bd
+NeedsCompilation: no
+
+Package: formatR
+Version: 1.0
+Suggests: codetools, shiny, testit, knitr
+License: GPL
+MD5sum: a5413453d312576bf30d273bddf70678
+NeedsCompilation: no
+
+Package: highr
+Version: 0.4
+Suggests: knitr, testit
+License: GPL
+MD5sum: b71b4d28ffa0a94ae372ad11c021b62f
+NeedsCompilation: no
+
+Package: httpuv
+Version: 99.999
+License: GPL
+MD5sum: 2babcecc2ee742d66d034ee647553928
+NeedsCompilation: no
+
+Package: httr
+Version: 0.6.0
+Depends: R (>= 3.0.0)
+Imports: digest, jsonlite, methods, mime, RCurl (>= 1.95-0), R6,
+        stringr (>= 0.6.1)
+Suggests: base64enc, httpuv, jpeg, knitr, PKI (>= 0.1-2), png, testthat
+        (>= 0.8.0), XML
+License: MIT + file LICENSE
+MD5sum: ea8fe9038459a16de2251efbe150cb2a
+NeedsCompilation: yes
+
+Package: jsonlite
+Version: 0.9.14
+Depends: methods
+Suggests: testthat, knitr, reshape2, httr (>= 0.4), rjson, plyr, curl
+License: MIT + file LICENSE
+MD5sum: 57ffa517515497aaa629ce8ad100e365
+NeedsCompilation: yes
+
+Package: knitr
+Version: 1.8
+Depends: R (>= 2.14.1)
+Imports: evaluate (>= 0.5.5), digest, formatR (>= 1.0), highr (>= 0.4),
+        markdown (>= 0.7.4), stringr (>= 0.6), tools
+Suggests: testit, rgl, codetools, rmarkdown, XML, RCurl
+License: GPL
+MD5sum: b1e76c4c049b2051ec1ed2c250a0c261
+NeedsCompilation: no
+
+Package: markdown
+Version: 0.7.4
+Depends: R (>= 2.11.1)
+Imports: mime (>= 0.1.1)
+Suggests: knitr, RCurl
+License: GPL-2
+MD5sum: 481303c843bb1b1a5492fc20f5296b69
+NeedsCompilation: yes
+
+Package: memoise
+Version: 0.2.1
+Imports: digest
+License: MIT + file LICENSE
+MD5sum: f6b9e93035d24246502a99d654380399
+NeedsCompilation: no
+
+Package: mime
+Version: 0.2
+Imports: tools
+License: GPL
+MD5sum: 4140300ebd4533d9b81bae45ea7d2261
+NeedsCompilation: yes
+
+Package: opencpu
+Version: 1.4.6
+Depends: R (>= 3.0.0)
+Imports: parallel, tools, stats, evaluate (>= 0.5.1), httpuv (>= 1.3),
+        knitr (>= 1.6), jsonlite (>= 0.9.14), devtools (>= 1.6.1), httr
+        (>= 0.3), brew, openssl
+Suggests: RAppArmor, sendmailR, RProtoBuf (>= 0.4.2), pander
+License: Apache License 2.0
+MD5sum: 63eef2676b3f790839c4f8a1579b3ecb
+NeedsCompilation: no
+
+Package: openssl
+Version: 0.2
+License: MIT + file LICENSE
+MD5sum: 623caaa7ead8321c06f042b3f86095f5
+NeedsCompilation: yes
+
+Package: pander
+Version: 0.5.1
+Depends: R (>= 2.15.0)
+Imports: methods, digest, tools, Rcpp
+LinkingTo: Rcpp
+Suggests: grid, lattice, ggplot2 (>= 0.9.2), koRpus, survival,
+        microbenchmark, zoo, nlme, descr, MASS, knitr
+License: AGPL-3 | file LICENSE
+MD5sum: 14d2ee77e172d7c21df0dc5daf1db9e9
+NeedsCompilation: yes
+
+Package: rstudioapi
+Version: 0.1
+License: MIT + file LICENSE
+MD5sum: 478e1fb5a32b5001400a96daadc9b434
+NeedsCompilation: no
+
+Package: sendmailR
+Version: 1.2-1
+Depends: R (>= 3.0.0)
+Imports: base64enc
+License: GPL-2
+MD5sum: 51b9bd2a7c6e94b18c222be7add3d147
+NeedsCompilation: no
+
+Package: stringr
+Version: 0.6.2
+Depends: R (>= 2.14)
+Suggests: testthat (>= 0.3)
+License: GPL-2
+MD5sum: 452628504e0910c1d0b1756370716f87
+NeedsCompilation: no
+
+Package: testthat
+Version: 0.9.1
+Depends: R (>= 3.1.0), methods
+Imports: digest
+Suggests: devtools
+License: MIT + file LICENSE
+MD5sum: a5439f78185658a063b228e0e7b3d170
+NeedsCompilation: yes
+
+Package: unixtools
+Version: 0.1-1
+Depends: R (>= 2.11)
+License: BSD
+MD5sum: 513d54e0a0f7b4ed2277895bc2b3d00e
+NeedsCompilation: yes
+
+Package: whisker
+Version: 0.3-2
+Suggests: markdown
+License: GPL-3
+MD5sum: c4b9bf9a22e69ce003fe68663ab5e8e6
+NeedsCompilation: no
+

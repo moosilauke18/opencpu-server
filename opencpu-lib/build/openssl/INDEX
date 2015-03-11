@@ -1,2 +1,0 @@
-rand_bytes              Generate random bytes with OpenSSL
-rand_num                Generate random numbers

@@ -1,2 +1,0 @@
-useDynLib(unixtools, C_setuser, C_setTempDir)
-export(set.user, set.tempdir)
